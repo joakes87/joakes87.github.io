@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commere</title>
-    <link rel="stylesheet" href="commere.css">
 </head>
 <h1>Commere Web App &#128075</h1>
 
@@ -14,10 +9,10 @@
         <form>
             <div>
                 <label for="firtN"></label>
-                <input type="text" class="name" placeholder="First Name" required>
+                <input type="text" id="firstN" placeholder="First Name" required>
 
                 <label for="lastN"></label>
-                <input type="text" class="name" placeholder="Last Name" required>
+                <input type="text" id="lastN" placeholder="Last Name" required>
             </div>
             <br>
             <hr>
@@ -31,30 +26,34 @@
                 </select>
             </div>
             <br>
-            <br>
             <div>
-                <label for="locate">Click to add a picture of your home</label>
-                <button input id="locate" class="locatebutton">Add&#128204</button>
+                <span>Click to locate your home.</span>
+                <button input id="locate" class="button">Find&#128204</button>
             </div>
             <br>
+            <div>
+                <span>Want to add a picture of your home?</span>
+                <button input id="locatePicture" class="button">Add</button>
+            </div>
             <br>
             <div>
-                <label for="infoBox2">Want to add something about your address?</label>
+                <label for="infoBox2" id="infoBox2Text">Want to add something about your address?</label>
                 <br>
-
                 <textarea name="infoBox2" id="infoBox2" rows="10" cols="45"
                     placeholder="BLDG #, apartment Door #, etc..."></textarea>
             </div>
             <br>
-            <button id="submitButton" class="submitButton">Submit</button>
+            <button id="submitButton" class="button">Submit</button>
         </form>
-        <div id="sidebar">
-            <p>
-                This project was created by <a href="https://www.linkedin.com/in/joshua-oakes-668b16180/">Joshua
-                    Oakes.</a>
-            </p>
-        </div>
     </section>
+    <br>
+    <br>
+    <div id="sidebar">
+        <footer>
+            This project was created by <a href="https://www.linkedin.com/in/joshua-oakes-668b16180/">Joshua
+                Oakes</a>.
+        </footer>
+    </div>
 </body>
 
 </html>
