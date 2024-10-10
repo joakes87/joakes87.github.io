@@ -5,39 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commere</title>
-    <link rel="stylesheet" href="C:\Users\joshu_1tskmxp\OneDrive\Desktop\WebDev\HTML\CSS\Commere.css">
-    <h1>Commere Web App &#128075</h1>
+    <link rel="stylesheet" href="C:\Users\joshua.l.oakes2.ctr\Desktop\Coding\JS\Commere\CommereCSS.css">
+</head>
+<h1>Commere Web App &#128075</h1>
 
 <body>
-    <form>
-        <label for="firstN"></label>
-        <input type="text" name="firstN" id="firstN" placeholder="First Name" required>
+    <section>
+        <form>
+            <div>
+                <label for="firtN"></label>
+                <input type="text" id="firstN" placeholder="First Name" required>
 
-        <label for="lastN"></label>
-        <input type="text" name="lastN" id="lastN" placeholder="Last Name" required>
-        <br>
-        <hr>
-        <label for="typeHome">What type of home do you have?</label>
-        <select name="typeHome" id="typeHome">
-            <option value="house">House</option>
-            <option value="trailer">Trailer</option>
-            <option value="apartment">Apartment</option>
-            <option value="milB">Military Building</option>
-        </select>
-        <br>
-        <label for="locate">Click to find exact location</label>
-        <input id="Locate" type="">
-        <br>
-        <label for="pictureA">Add a picture of your address</label>
-        <input id="pictureA" type="">
-        <br>
-        <label for="infobox2">Want to add something about your address?</label>
-        <br>
-        <textarea id="infobox2" rows="10" cols="45" name="infobox2"
-            placeholder="BLDG #, Apartment Door #, etc..."></textarea>
-        <br>
-        <button>Submit</button>
-    </form>
+                <label for="lastN"></label>
+                <input type="text" id="lastN" placeholder="Last Name" required>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <label for="typeHome">What type of home do you have?</label>
+                <select name="typeHome" id="typeHome">
+                    <option value="house">House</option>
+                    <option value="trailer">Trailer</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="milB">Military Building</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="locate">Click to add a picture of your home</label>
+                <button input id="locate" class="locatebutton">Add&#128204</button>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="infoBox2">Want to add something about your address?</label>
+                <br>
+
+                <textarea name="infoBox2" id="infoBox2" rows="10" cols="45"
+                    placeholder="BLDG #, apartment Door #, etc..."></textarea>
+            </div>
+            <br>
+            <button id="submitButton" class="submitButton">Submit</button>
+        </form>
+        <div id="sidebar">
+            <p>
+                This project was created by <a href="https://www.linkedin.com/in/joshua-oakes-668b16180/">Joshua
+                    Oakes.</a>
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>
