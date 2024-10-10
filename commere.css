@@ -10,6 +10,8 @@ h1 {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -27,23 +29,12 @@ body {
     margin-top: 5px;
 }
 
-#lastN {
+.name {
     background-color: rgb(162, 212, 212);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 2px solid black;
     padding: 5px;
-
-}
-
-#firstN {
-    background-color: rgb(162, 212, 212);
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border: 2px solid black;
-    margin-right: 30px;
-    padding: 5px;
-
 }
 
 #typeHome {
