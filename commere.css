@@ -1,9 +1,83 @@
-infobox {
+/*#infoBox {
     width: 250px;
     height: 250px;
+    border-radius: 10px 100px / 120px;
+}*/
+
+h1 {
+    text-align: center;
+    font-size: 60px;
 }
 
-infobox2 {
-    width: 350;
-    height: 3350;
+form {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(129, 197, 150);
+
+}
+
+#infoBox2 {
+    background-color: rgb(162, 212, 212);
+    width: 500px;
+    height: 150px;
+    border-radius: .1px 100px / 120px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+#lastN {
+    background-color: rgb(162, 212, 212);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+#firstN {
+    background-color: rgb(162, 212, 212);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid black;
+    margin-right: 30px;
+    padding: 5px;
+
+}
+
+#typeHome {
+    background-color: rgb(162, 212, 212);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid black;
+
+}
+
+#locate {
+    border: 2px solid black;
+
+
+}
+
+.locatebutton:hover {
+    background-color: lightgray;
+}
+
+#submitButton {
+    border: 2px solid black;
+
+}
+
+.submitButton:hover {
+    background-color: lightgrey;
+}
+
+#sidebar {
+    text-align: right;
+    color: rgb(238, 197, 147);
+}
+
+#sidebar a:hover {
+    color: aqua;
 }
